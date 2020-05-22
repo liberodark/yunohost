@@ -2886,7 +2886,7 @@ def _patch_legacy_php_versions(app_folder):
         os.system(c)
 
 
-def _path_legacy_php_versions_in_settings(app_folder):
+def _patch_legacy_php_versions_in_settings(app_folder):
 
     settings = read_yaml(os.path.join(app_folder, '/settings.yml'))
 
