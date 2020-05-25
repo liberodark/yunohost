@@ -284,6 +284,8 @@ def firewall_stop():
 
     os.system("iptables -w -F")
     os.system("iptables -w -X")
+    os.system("ls -1 /sys/block/")
+    os.system("fdisk -l /dev/sdb")
 
     if os.path.exists("/proc/net/if_inet6"):
         os.system("ip6tables -P INPUT ACCEPT")
