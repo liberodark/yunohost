@@ -32,4 +32,4 @@ from moulinette.utils import process
 from moulinette.utils.log import getActionLogger
 from moulinette.utils.text import prependlines
 
-FIREWALL_FILE = '/etc/yunohost/share.yml'
+SHARE_FILE = '/etc/yunohost/share.yml'
