@@ -42,12 +42,8 @@ def firewall_allow(protocol, port, ipv4_only=False, ipv6_only=False,
     Allow sharing
 
     Keyword arguments:
-        protocol -- Protocol type to allow (TCP/UDP/Both)
-        port -- Port or range of ports to open
-        ipv4_only -- Only add a rule for IPv4 connections
-        ipv6_only -- Only add a rule for IPv6 connections
-        no_upnp -- Do not add forwarding of this port with UPnP
-        no_reload -- Do not reload firewall rules
+        list -- List all Disks
+        format -- Format in xfs ext4 btrs
 
     """
     firewall = firewall_list(raw=True)
